@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Ballet extends MusicShow {
     protected Person choreographer;
 
-    Ballet(String title, int duration, Director director,
+    public Ballet(String title, int duration, Director director,
            Person musicAuthor, String librettoText, Person choreographer) {
         super.title = title;
         super.duration = duration;
